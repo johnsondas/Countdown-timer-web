@@ -5,8 +5,8 @@ var s = document.getElementById("sec");
 
 function start(){
     const currentYear = new Date().getFullYear();
-   // const newYear = new Date(`january 1 ${currentYear + 1} 00:00:00`);
-   const newYear = new Date(` ${currentYear + 1} `);
+    //const newYear = new Date(`january 1 ${currentYear + 1} 00:00:00`);
+    const newYear = new Date(` ${currentYear + 1} `);
 
     const currentdate = new Date();
     const diff = newYear - currentdate;
